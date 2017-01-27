@@ -7,7 +7,7 @@
 int main(void)
 {
     char *msg = "Puru Pathak's system call: Hello System Call";
-    syscall(sys_hello , msg); 
+    syscall(sys_hello , msg); // Actual call here
     return 0;
 }
 
